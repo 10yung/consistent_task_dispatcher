@@ -16,11 +16,13 @@ jobs:
       - name: Git Checkout Deno Module
         uses: actions/checkout@v2
 
-      - name: Codecov
+      - name: Upload coverage to Codecov  
         uses: codecov/codecov-action@v1.0.3
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
+          flags: unittests
+          name: codecov-umbrella 
 
       - name: Use Deno Version ${{ matrix.deno-version }}
         uses: denolib/setup-deno@master
