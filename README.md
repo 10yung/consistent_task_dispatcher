@@ -1,8 +1,7 @@
-# Consistent Tasks Dispatcher
+# Consistent Task Dispatcher
 ![Deno Test](https://github.com/10yung/Consistent-Tasks-Dispatcher/workflows/Deno%20Test/badge.svg)
-[![codecov](https://codecov.io/gh/10yung/Consistent_Tasks_Dispatcher/branch/master/graph/badge.svg)](https://codecov.io/gh/10yung/Consistent_Tasks_Dispatcher)
-
-
+![MIT](https://img.shields.io/github/license/10yung/Consistent_Task_Dispatcher)
+![version](https://img.shields.io/github/v/release/10yung/Consistent_Task_Dispatcher)
 
 ## Description 
 This is a task dispatcher widget implemented by consistent hashing algorithm. Each server(worker) will be dispatched by a set of tasks. Input a list of `ServerName`, `TaskName` and `SECRET_KEY`, `get_server_task_map` will map the tasks to the respond server. This pacakge depend on [hmac](https://denopkg.com/chiefbiiko/hmac/mod.ts) for javascript hashing.
