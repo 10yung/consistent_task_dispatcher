@@ -1,5 +1,6 @@
 # Consistent Tasks Dispatcher
 ![Deno Test](https://github.com/10yung/Consistent-Tasks-Dispatcher/workflows/Deno%20Test/badge.svg)
+[![codecov](https://codecov.io/gh/10yung/Consistent_Tasks_Dispatcher/branch/master/graph/badge.svg)](https://codecov.io/gh/10yung/Consistent_Tasks_Dispatcher)
 
 
 
