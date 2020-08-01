@@ -46,7 +46,7 @@ let hashed = get_hashed(['Task0927', 'Task1029', 'Task0927', 'Task0426', 'Task11
 //   [ "Task1117", "b51c2131be8c524211d804b72c48e2f5a75661639abf2d26922660de700248b1" ]
 // ]
 ```
-Since 
+Since the package dependent on [hmac](https://denopkg.com/chiefbiiko/hmac/mod.ts). The `--unstable` and `--allow-net` flag should be added each time run this package.
 
 ## Todo
 - [x] Create hash ring and servers tasks mapping
@@ -55,4 +55,4 @@ Since
 - [ ] Change datastructure for hashring 
 
 ## LICENSE
-
+[MIT](https://github.com/10yung/Consistent-Tasks-Dispatcher/blob/master/LICENSE)
