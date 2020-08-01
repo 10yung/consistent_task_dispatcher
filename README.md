@@ -54,5 +54,9 @@ Since the package dependent on [hmac](https://denopkg.com/chiefbiiko/hmac/mod.ts
 - [ ] Add weight to each server and implement visual node in hashring
 - [ ] Change datastructure for hashring 
 
+## Reference
+- [Consistent Hashing Wiki](https://en.wikipedia.org/wiki/Consistent_hashing)
+- [Consistent Hashing Concept](https://www.interviewcake.com/concept/java/consistent-hashing)
+
 ## LICENSE
 [MIT](https://github.com/10yung/Consistent-Tasks-Dispatcher/blob/master/LICENSE)
