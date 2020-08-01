@@ -6,7 +6,7 @@ jobs:
 
     strategy:
       matrix:
-        deno: ["v1.2.2", "v1.2.1", "v1.0.0"]
+        deno: ["v1.0.0", "v0.42.0", "v1.x", "v0.x"]
 
     name: Deno ${{ matrix.deno }} sample
 
